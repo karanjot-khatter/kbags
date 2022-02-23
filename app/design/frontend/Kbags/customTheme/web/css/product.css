@@ -1,0 +1,34 @@
+.catalog-product-view .product-info-main .product.attribute.sku {
+  font-size: 18px;
+  color: gray;
+}
+
+.catalog-product-view .product-info-main .product-info-stock-sku {
+  padding-top: 10px;
+}
+
+.catalog-product-view .product-info-main .product-reviews-summary {
+  float: none;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.catalog-product-view .product-info-main .product-info-price {
+  margin-bottom: 0;
+}
+
+.catalog-product-view .product-info-main .product-add-form button#product-addtocart-button {
+  background-color: #FF7F7F;
+  border: none;
+}
+
+.catalog-product-view .product-info-main .product.attribute.overview {
+  font-size: 16px;
+}
+
+@media (max-width: 768px){
+.catalog-product-view .product.media .gallery-placeholder .fotorama__dot {
+  height: 12px;
+  width: 12px;
+}
+}
+

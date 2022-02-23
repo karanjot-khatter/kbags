@@ -1,0 +1,21 @@
+.catalog-category-view .product-item .product-item-name {
+  font-size: 22px;
+}
+
+.catalog-category-view .product-item .price-box .price {
+  font-size: 22px;
+}
+
+.catalog-category-view .product-item .product-item-actions .actions-primary .tocart,
+.catalog-category-view .product-item .product-item-actions .actions-primary .tocart:hover {
+  background: #FF7F7F;
+  border: none;
+  font-size: 16px;
+}
+
+@media (max-width: 768px){
+.catalog-category-view .block.filter {
+  display: none;
+}
+}
+

@@ -1,0 +1,144 @@
+/** header links customisation */
+
+/*  Footer subscription */
+
+.page-footer .footer.content .block {
+  float: unset;
+  border-bottom: 1px solid;
+  max-width: 100%;
+  padding-bottom: 20px;
+  width: unset;
+}
+
+.page-footer .footer.content .block label {
+  width: 220px;
+}
+
+.page-footer .footer.content .block .actions .action.subscribe {
+  background: red;
+  border: none;
+  color: white;
+  height: 32px;
+  padding: 6px;
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.page-footer .footer.content .block label {
+  width: 100%;
+}
+
+/** Homepage Content customisation */
+
+.cms-home {
+  /*Top picks*/
+}
+
+.cms-home .top-picks {
+  margin-top: 30px;
+}
+
+.cms-home .top-picks .top-picks-content {
+  left: -15px;
+  position: relative;
+  background: radial-gradient(ellipse farthest-corner at 0 -1000%, #f7931b 0%, #f7931b 90%, transparent 90%);
+  color: #fff;
+  padding: 2px;
+  text-align: left;
+  z-index: 1;
+  width: 65%;
+}
+
+.cms-home .top-picks .top-picks-content h1.top-text {
+  position: relative;
+  left: 6%;
+  margin-bottom: 0;
+  margin-top: 7px;
+  width: 75%;
+}
+
+.cms-home .top-picks .top-images {
+  background-color: #234a5a;
+  position: relative;
+  top: -60px;
+  margin: -15px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.cms-home .top-picks .top-images .content-block {
+  position: relative;
+  height: 470px;
+  border: 8px solid #fff;
+}
+
+.cms-home .top-picks .top-images .content-block .content-block a {
+  height: 380px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.cms-home .top-picks .top-images .content-block .shop-now,
+.cms-home .top-picks .top-images .content-block .shop-now:hover {
+  border-radius: 0;
+  padding: 2px;
+  width: 180px;
+  text-align: left;
+  position: relative;
+  background: radial-gradient(ellipse farthest-corner at 0 -800%, #f7931b 0%, #f7931b 90%, transparent 90%);
+  border: none;
+  top: -25px;
+  margin-left: 25px;
+}
+
+.cms-home .top-picks .top-images .content-block .shop-now span.shop-now-text,
+.cms-home .top-picks .top-images .content-block .shop-now:hover span.shop-now-text {
+  left: 5px;
+  position: relative;
+  font-size: 24px;
+}
+
+.cms-home .top-picks .top-images .content-block .shop-now .glyphicon.glyphicon-menu-right,
+.cms-home .top-picks .top-images .content-block .shop-now:hover .glyphicon.glyphicon-menu-right {
+  left: 5px;
+  font-size: 20px;
+  top: 2px;
+}
+
+.cms-home .top-picks .top-images .content-block img {
+  margin-bottom: 10px;
+  min-height: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  max-width: initial;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform;
+}
+
+.cms-home .top-picks .top-images .content-block .image-bottom {
+  background-color: #fff;
+  height: 80px;
+}
+
+.cms-home .top-picks .top-images .content-block .image-bottom h1.text {
+  color: #234959;
+  margin: 0;
+  font-weight: 700;
+  left: 10px;
+  position: relative;
+  top: 5px;
+}
+
+@media (max-width: 767px){
+.page-footer .footer.content .block {
+  border-bottom: unset;
+}
+}
+

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="css/bootstrap.css" />
+        <css src="css/styles.css" />
+        <css src="css/styles-above-520.css" />
+        <css src="css/product-list.css" />
+        <css src="css/product-list-above-520.css" />
+        <css src="css/product.css" />
+        <css src="https://use.fontawesome.com/releases/v5.7.1/css/all.css" src_type="url"/>
+    </head>
+</page>

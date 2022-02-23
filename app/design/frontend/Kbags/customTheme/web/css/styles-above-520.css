@@ -1,0 +1,86 @@
+@media (min-width: 768px){
+.header.panel > .header.links > li.welcome,
+.header.panel > .header.links > li > a {
+  line-height: 2 !important;
+  font-weight: 500;
+}
+
+header.page-header {
+  margin-bottom: 0;
+}
+
+header.page-header .header.panel {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  height: 28px;
+}
+
+header.page-header ul.header.links li.greet.welcome span.welcome-message {
+  right: 40%;
+  position: absolute;
+}
+
+.sections.nav-sections {
+  font-size: 20px;
+}
+
+.sections.nav-sections .navigation .level0 .submenu a {
+  border-bottom: 1px solid black;
+  color: black;
+  text-decoration: none;
+}
+
+.header.content .block-search input {
+  font-size: 13px;
+}
+
+.header.content .minicart-wrapper {
+  top: 25px !important;
+}
+
+.header.content form#search_mini_form {
+  top: 25px;
+  position: relative;
+  width: 300px;
+  left: -70px;
+}
+
+.header.content .navigation {
+  background: transparent !important;
+  top: 50px !important;
+  width: 55% !important;
+  left: 15px;
+}
+
+.header.content .navigation li.level0 {
+  font-size: 20px !important;
+  padding: 0 20px 0 0 !important;
+  margin: 0 20px 0 0 !important;
+  text-transform: capitalize !important;
+}
+
+/*  Footer links */
+
+.page-footer .footer.content .links {
+  display: flex;
+}
+
+.page-footer .footer.content .links li {
+  padding: 0 20px;
+  border-right: 1px solid black;
+}
+
+.page-footer .footer.content .links li:last-child {
+  border-right: none;
+}
+
+.page-footer .footer .block.newsletter .field.newsletter {
+  width: 400px;
+  max-width: unset;
+}
+
+.page-footer .footer.content .block label {
+  width: 400px;
+}
+}
+
