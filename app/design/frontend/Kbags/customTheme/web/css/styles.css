@@ -136,6 +136,10 @@
   top: 5px;
 }
 
+.cms-no-route .page-main p {
+  font-size: 14px;
+}
+
 @media (max-width: 767px){
 .page-footer .footer.content .block {
   border-bottom: unset;
