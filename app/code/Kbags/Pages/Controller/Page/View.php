@@ -1,45 +1,25 @@
 <?php
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
 namespace Kbags\Pages\Controller\Page;
-
-use Magento\Framework\App\Action\Action;
-use Magento\Framework\App\Action\Context;
-use Magento\Framework\Controller\Result\JsonFactory;
-use Magento\Framework\Controller\ResultInterface;
-
-class View extends Action
+class View extends \Magento\Framework\App\Action\Action
 {
-    /**
-     * @var JsonFactory
-     */
-    protected $resultJsonFactory;
-
-    /**
-     * @param Context $context
-     * @param JsonFactory $resultJsonFactory
-     */
-    public function __construct(
-        Context $context,
-        JsonFactory $resultJsonFactory
-    ) {
+    /** @var  \Magento\Framework\View\Result\Page */
+    protected $resultPageFactory;
+    /**      * @param \Magento\Framework\App\Action\Context $context      */
+    public function __construct(\Magento\Framework\App\Action\Context $context, \Magento\Framework\View\Result\PageFactory $resultPageFactory)
+    {
+        $this->resultPageFactory = $resultPageFactory;
         parent::__construct($context);
-        $this->resultJsonFactory = $resultJsonFactory;
     }
-
     /**
-     * View  page action
+     * Blog Index, shows a list of recent blog posts.
      *
-     * @return ResultInterface
+     * @return \Magento\Framework\View\Result\PageFactory
      */
     public function execute()
     {
-        $result = $this->resultJsonFactory->create();
-        $data = ['message' => 'Hello world!'];
-
-        return $result->setData($data);
+        $resultPage = $this->resultPageFactory->create();
+        // $resultPage->getConfig()->getTitle()->prepend(__('Custom Front View'));
+        //the above is done in the block...
+        return $resultPage;
     }
 }
